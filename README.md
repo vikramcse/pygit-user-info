@@ -4,13 +4,9 @@ Gets the info of github user
 
 
 # Installation
-
-If you don't use `pipsi`, you're missing out.
-Here are [installation instructions](https://github.com/mitsuhiko/pipsi#readme).
-
 Simply run:
 
-    $ pipsi install .
+    $ pip install giti
 
 
 # Usage
@@ -18,4 +14,12 @@ Simply run:
 To use it:
 
     $ giti --help
+    
+    Usage: giti [OPTIONS] USERNAME
+
+    Takes a github username as a argument
+
+    Options:
+      --repo  List down the repositories if the selected user and url.
+      --help  Show this message and exit.
 
